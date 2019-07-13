@@ -38,6 +38,9 @@ npm install loopback-connector-postgresql --save
 10) Execute command <grunt> para que ejecuta el archivo Gruntfile.js y realiza las migraciones
 11) heroku restart 
 12) heroku logs --tail
+13) npm install grunt-cli --save
+14) Agregar regla de migracion  package.json en la parte de script add "migrate":"./node_modules/grunt-cli/bin/grunt"
+15)
 
 
 
