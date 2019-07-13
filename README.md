@@ -13,7 +13,24 @@ lb model
     Expose Category via the REST API? Y
     Custom plural form (used to build REST URL): products
     Common model or server only? common
-    
+
 
 # Used
 npm install loopback-connector-postgresql --save
+
+
+#Road Map for Heroku
+
+1) npm install loopback-connector-postgresql --save
+2) Heroku Variable de entorno de la BD-> settings Config Variables  DATABASE_URL module.exports = {
+    db: {
+        url: process.env.DATABASE_URL,
+        connector: 'postgresql'
+    }
+}
+3) Add variable de entonrno *develop* NODE_ENV
+4) npm i grunt-loopback-auto --save //Automatic migrations
+5) npm i grunt --save
+6) create file Gruntfile.js
+
+
