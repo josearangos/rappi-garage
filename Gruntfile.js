@@ -21,5 +21,5 @@ module.exports = function(grunt) {
     });
     // Load the plugin
     grunt.loadNpmTasks('grunt-loopback-auto');
-    grunt.registerTask('default', ['loopback_auto']);
+    grunt.registerTask('default', ['db_autoupdate']);
   };
