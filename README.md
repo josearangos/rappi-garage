@@ -31,6 +31,14 @@ npm install loopback-connector-postgresql --save
 3) Add variable de entonrno *develop* NODE_ENV
 4) npm i grunt-loopback-auto --save //Automatic migrations
 5) npm i grunt --save
-6) create file Gruntfile.js
+6) create file Gruntfile.js 
+7) git push heroku master
+8) heroku run bash // open remote terminal of heroku Server para salir usamso comando exit
+9) install Grunt Cli in the server Command -> npm install -g grunt-cli
+10) Execute command <grunt> para que ejecuta el archivo Gruntfile.js y realiza las migraciones
+11) heroku restart 
+12) heroku logs --tail
+
+
 
 
