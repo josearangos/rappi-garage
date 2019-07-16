@@ -47,6 +47,16 @@
     "country": {
       "type": "string",
       "required": true
+    },
+    "measures": {
+      "type": "object",
+      "required": true,
+      "default": {
+        "width": 0,
+        "heigth": 0,
+        "weigth": 0,
+        "large": 0
+      }
     }
   },
   "validations": [],
