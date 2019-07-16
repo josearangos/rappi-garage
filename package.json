@@ -8,7 +8,7 @@
   "scripts": {
     "lint": "eslint .",
     "start": "node .",
-    "migrate":"./node_modules/grunt-cli/bin/grunt",
+    "migrate": "./node_modules/grunt-cli/bin/grunt",
     "posttest": "npm run lint && npm audit"
   },
   "dependencies": {
