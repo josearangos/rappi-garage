@@ -50,7 +50,7 @@
     },
     "measures": {
       "type": "object",
-      "required": true,
+      "required": false,
       "default": {
         "width": 0,
         "heigth": 0,
