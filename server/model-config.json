@@ -54,5 +54,21 @@
   "Condition": {
     "dataSource": "db",
     "public": true
+  },
+  "RappiUser": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Region": {
+    "dataSource": "db",
+    "public": true
+  },
+  "City": {
+    "dataSource": "db",
+    "public": true
+  },
+  "ProductXCategory": {
+    "dataSource": "db",
+    "public": true
   }
 }

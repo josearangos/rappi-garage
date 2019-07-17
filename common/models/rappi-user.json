@@ -1,0 +1,51 @@
+{
+  "name": "RappiUser",
+  "plural": "RappiUsers",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "user_id": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "country_id": {
+      "type": "string",
+      "required": true
+    },
+    "birth_date": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "object",
+      "required": true,
+      "default": {
+        "area_code": "",
+        "number": "",
+        "extension": ""
+      }
+    },
+    "gender": {
+      "type": "string",
+      "required": true
+    },
+    "photoUrl": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

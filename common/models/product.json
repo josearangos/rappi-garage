@@ -57,10 +57,24 @@
         "weigth": 0,
         "large": 0
       }
+    },
+    "city_id": {
+      "type": "number",
+      "required": true
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "categories": {
+      "type": "hasMany",
+      "model": "Category",
+      "foreignKey": "product_id",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "ProductXCategory"
+    }
+  },
   "acls": [],
   "methods": {}
 }

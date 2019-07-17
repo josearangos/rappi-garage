@@ -1,6 +1,6 @@
 {
-  "name": "Country",
-  "plural": "Countries",
+  "name": "Region",
+  "plural": "Regions",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -17,6 +17,10 @@
     },
     "code": {
       "type": "string",
+      "required": true
+    },
+    "country_id": {
+      "type": "number",
       "required": true
     }
   },

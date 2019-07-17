@@ -1,6 +1,6 @@
 {
-  "name": "Country",
-  "plural": "Countries",
+  "name": "City",
+  "plural": "Cities",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -15,7 +15,19 @@
       "type": "string",
       "required": true
     },
-    "code": {
+    "region_id": {
+      "type": "number",
+      "required": true
+    },
+    "country_id": {
+      "type": "number",
+      "required": true
+    },
+    "latitude": {
+      "type": "string",
+      "required": true
+    },
+    "longitude": {
       "type": "string",
       "required": true
     }
