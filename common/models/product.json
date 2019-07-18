@@ -43,11 +43,7 @@
     "availability": {
       "type": "boolean",
       "required": true
-    },
-    "country": {
-      "type": "string",
-      "required": true
-    },
+    },    
     "measures": {
       "type": "object",
       "required": true,
