@@ -61,6 +61,10 @@
     "city_id": {
       "type": "number",
       "required": true
+    },
+    "user_id": {
+      "type": "number",
+      "required": true
     }
   },
   "validations": [],
@@ -73,6 +77,11 @@
         "nestRemoting": true
       },
       "through": "ProductXCategory"
+    },
+    "rappiUser": {
+      "type": "belongsTo",
+      "model": "RappiUser",
+      "foreignKey": "user_id"
     }
   },
   "acls": [],
