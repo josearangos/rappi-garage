@@ -15,10 +15,6 @@
       "type": "string",
       "required": true
     },
-    "region_id": {
-      "type": "number",
-      "required": true
-    },
     "country_id": {
       "type": "number",
       "required": true

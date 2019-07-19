@@ -24,10 +24,6 @@
       "type": "string",
       "required": true
     },
-    "location": {
-      "type": "string",
-      "required": true
-    },
     "availableQuantity": {
       "type": "number",
       "required": true
@@ -43,7 +39,7 @@
     "availability": {
       "type": "boolean",
       "required": true
-    },    
+    },
     "measures": {
       "type": "object",
       "required": true,
@@ -61,6 +57,19 @@
     "user_id": {
       "type": "number",
       "required": true
+    },
+    "condition": {
+      "type": "string",
+      "required": true,
+      "default": "Used"
+    },
+    "location": {
+      "type": "object",
+      "required": true,
+      "default": {
+        "latitude": 0,
+        "longitude": 0
+      }
     }
   },
   "validations": [],
