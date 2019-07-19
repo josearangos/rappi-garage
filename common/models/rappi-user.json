@@ -45,7 +45,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "products": {
+      "type": "hasMany",
+      "model": "Product",
+      "foreignKey": "user_id"
+    }
+  },
   "acls": [],
   "methods": {}
 }
