@@ -51,10 +51,6 @@
     "dataSource": "db",
     "public": true
   },
-  "Condition": {
-    "dataSource": "db",
-    "public": true
-  },
   "RappiUser": {
     "dataSource": "db",
     "public": true
