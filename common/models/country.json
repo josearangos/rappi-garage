@@ -14,10 +14,25 @@
     "name": {
       "type": "string",
       "required": true
+    },
+    "currency": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "cities": {
+      "type": "hasMany",
+      "model": "City",
+      "foreignKey": "country_id"
+    },
+    "currencies": {
+      "type": "hasOne",
+      "model": "Currency",
+      "foreignKey": "currency"
+    }
+  },
   "acls": [],
   "methods": {}
 }

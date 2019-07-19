@@ -22,7 +22,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "countries": {
+      "type": "hasAndBelongsToMany",
+      "model": "Country",
+      "foreignKey": "currency"
+    }
+  },
   "acls": [],
   "methods": {}
 }

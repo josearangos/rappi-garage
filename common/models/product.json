@@ -87,6 +87,11 @@
       "type": "belongsTo",
       "model": "RappiUser",
       "foreignKey": "user_id"
+    },
+    "city": {
+      "type": "belongsTo",
+      "model": "City",
+      "foreignKey": "city_id"
     }
   },
   "acls": [],
