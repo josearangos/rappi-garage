@@ -26,11 +26,6 @@
       "type": "hasMany",
       "model": "City",
       "foreignKey": "country_id"
-    },
-    "currencies": {
-      "type": "hasOne",
-      "model": "Currency",
-      "foreignKey": "currency"
     }
   },
   "acls": [],

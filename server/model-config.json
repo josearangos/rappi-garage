@@ -47,10 +47,6 @@
     "dataSource": "db",
     "public": true
   },
-  "Currency": {
-    "dataSource": "db",
-    "public": true
-  },
   "RappiUser": {
     "dataSource": "db",
     "public": true
