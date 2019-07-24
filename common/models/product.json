@@ -70,6 +70,13 @@
         "latitude": 0,
         "longitude": 0
       }
+    },
+    "photo": {
+      "type": [
+        "object"
+      ],
+      "required": true,
+      "default": "[{\"source\":\"\"}]"
     }
   },
   "validations": [],
