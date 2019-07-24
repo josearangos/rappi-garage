@@ -71,12 +71,11 @@
         "longitude": 0
       }
     },
-    "photo": {
+    "photos": {
       "type": [
         "object"
       ],
-      "required": true,
-      "default": "[{\"source\":\"\"}]"
+      "required": true
     }
   },
   "validations": [],
