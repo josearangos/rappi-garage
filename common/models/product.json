@@ -32,6 +32,9 @@
       "type": "string",
       "required": true
     },
+    "cityName": {
+      "type": "string"
+     },
     "publishDate": {
       "type": "date",
       "required": true
