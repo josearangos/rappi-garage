@@ -34,7 +34,7 @@
     },
     "cityName": {
       "type": "string"
-     },
+    },
     "publishDate": {
       "type": "date",
       "required": true
@@ -75,9 +75,7 @@
       }
     },
     "photos": {
-      "type": [
-        "object"
-      ],
+      "type": ["object"],
       "required": true
     }
   },

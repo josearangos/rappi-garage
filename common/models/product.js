@@ -1,5 +1,3 @@
-'use strict';
+"use strict";
 
-module.exports = function(Product) {
-
-};
+module.exports = function(Product) {};
