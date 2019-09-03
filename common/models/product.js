@@ -14,9 +14,15 @@ module.exports = function(Product) {
       fields: { id: true, name: true, price: true, photos: true }
     };
 
-    Product.find(filter, function(_, products) {
-      callback(null, products);
-    });
+    if (query === undefined) {
+      Product.find({ limit: limit }, function(_, products) {
+        callback(null, products);
+      });
+    } else {
+      Product.find(filter, function(_, products) {
+        callback(null, products);
+      });
+    }
   };
 
   Product.remoteMethod("search", {
