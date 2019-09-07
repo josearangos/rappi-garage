@@ -24,6 +24,7 @@ module.exports = function(Product) {
       });
     }
   };
+ 
 
   Product.remoteMethod("search", {
     http: {
@@ -40,4 +41,6 @@ module.exports = function(Product) {
       type: "array"
     }
   });
+
+
 };
