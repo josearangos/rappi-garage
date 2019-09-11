@@ -15,7 +15,7 @@ module.exports = function(Product) {
     };
 
     if (query === undefined) {
-      Product.find({ limit: limit }, function(_, products) {
+      Product.find({ limit: limit, skip: skip }, function(_, products) {
         callback(null, products);
       });
     } else {
@@ -24,7 +24,6 @@ module.exports = function(Product) {
       });
     }
   };
- 
 
   Product.remoteMethod("search", {
     http: {
@@ -41,6 +40,4 @@ module.exports = function(Product) {
       type: "array"
     }
   });
-
-
 };
